@@ -36,7 +36,7 @@ Before do |scenario|
                                             "access-key" => config[:api_key],
                                             "os" => config[:os],
                                             "browser" => config[:browser],
-                                            "browser-version" => config[:browser_version],
+                                            "browser-version" => config[:version],
                                             "job-name" => job_name
                                           }.to_json,
                                           :url => config[:host],
